@@ -1,6 +1,6 @@
 FROM node:19-alpine
 
-ENV NPM_CONFIG_LOGLEVEL error
+ENV NPM_CONFIG_LOGLEVEL=error
 
 RUN apk add --update bash
 
