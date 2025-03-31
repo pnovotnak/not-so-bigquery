@@ -7,4 +7,4 @@ RUN apk add --update bash
 WORKDIR /code
 
 COPY package*.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
